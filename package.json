@@ -1,0 +1,19 @@
+{
+  "name": "meural-canvas-extras",
+  "version": "0.0.1",
+  "description": "Hack projects for the Meural canvas digital frame",
+  "main": "build/index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "compile": "tsc"
+  },
+  "pre-commit": [
+    "compile"
+  ],
+  "author": "Evan Madow",
+  "license": "ISC",
+  "dependencies": {
+    "pre-commit": "^1.2.2",
+    "typescript": "^4.1.2"
+  }
+}
